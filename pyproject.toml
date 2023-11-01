@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "prime_bh2896"
+version = "0.1.0"
+description = "python package that eases the pain of concatenating pandas categoricals"
+authors = ["Bennyha"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
